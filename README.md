@@ -10,6 +10,6 @@ The testing rig provides you with
 - Current measurement (Ampere)
 - Thrust value
 - Your input RPM (manual or automatic test mode)
-(- Voltage measurement can easily be added)
+- (- Voltage measurement can easily be added)
 
 The testing rig is supposed to deliver acurate data about the efficency of a prop and can be used with external measuring devices to determine the rpm and dB of a prop.
