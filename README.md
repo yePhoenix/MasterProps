@@ -15,6 +15,9 @@ The testing rig provides you with
 - (Voltage measurement can easily be added)
 The measurements of the automatic mode can be exportet on to your PC to further analize them.
 
+## How it works
+The construction itself is simple. A Motor is Mounted on a pole that can move and is connected to an ESC. The ESC is powered by a 6S LiPo and the current drawn is measured between LiPo and ESC with the ACS787. The other part of the circuit is the Arduino Nano measuring the current as said, measuring the thrust via load cell and siplaying the values on a LCD. Controlling the station is done via the Rotary Encoder.
+
 ## BOM
 - Arduino Nano R3
 - LCD I2C 2004
@@ -28,7 +31,7 @@ The measurements of the automatic mode can be exportet on to your PC to further 
 ## Assembly
 Assemble the build according to the provided schematic. The mechanical layout of motor mounting point, loadcell position, etc. can be varied if wanted but make sure to calibrate the device with force measuring instruments.
 
-## Safety
+## Safety ⚠️
 For a safe usage it's important to know what you are doing. Never go to near to the station or put your hand on it while tests are performed. While tests are being performed it is recommended stand behind the station looking from the propellers perspective or even build some safety walls in case of propellers breaking. Securely mount the station before performing any tests.
 Tes the spinning diretion on low RPM after building and change the code to match your propeller type (cw or ccw).
 
